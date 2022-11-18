@@ -8,21 +8,51 @@
 <body>
   <div class="container">
     <div class="jumbotron" style="text-align: center;">
-      <h1>Currency Exchange</h1>
+      <h1>$ Currency Exchange $</h1>
     </div>
     <div class="row">
       <div class="col-6">
-        <form style="text-align: center;">
-          <label for="dollars">Enter the amount of US dollars you would like to convert: </label>
-          <input type="text" id="dollars" name="dollars">
-          <br>
-          <label for="code">Enter the three letter currency code for the currency you would like to convert your US
-            dollar to: </label>
-          <input type="text" id="code" name="code">
-          <br>
-          <button type="submit" class="btn btn-success">Convert</button>
-        </form>
-        <h2 id="display" style="text-align: center;"></h2>
+
+        <div class="card">
+          <div class="card-header" style="text-align: center;">
+            <strong>Convert US dollor to currency of your choice.</strong>
+          </div>
+          <div class="card-body">
+            <form id="form1" style="text-align: center;">
+              <label for="dollars">Enter the amount of US dollars you would like to convert: </label>
+              <input type="text" id="dollars" name="dollars">
+              <br>
+              <label for="code">Enter the three letter currency code for the currency you would like to convert your US
+                dollar to: </label>
+              <input type="text" id="code" name="code">
+              <br>
+              <button style="margin-top: 3%; margin-bottom: 3%;" type="submit" class="btn btn-success">Convert</button>
+            </form>
+            <h2 id="display" style="text-align: center;"></h2>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top: 5%">
+          <div class="card-header" style="text-align: center;">
+            <strong>Convert US dollor to currency of your choice.</strong>
+          </div>
+          <div class="card-body">
+            <form id="form2" style="text-align: center;">
+              <label for="dollars2">Enter the amount you would like to convert: </label>
+              <input type="text" id="dollars2" name="dollars2">
+              <br>
+              <label for="curr">Enter the three letter currency code for the currency you would like use: </label>
+              <input type="text" id="curr" name="curr">
+              <br>
+              <label for="code2">Enter the three letter currency code for the currency you would like to convert to: </label>
+              <input type="text" id="code2" name="code2">
+              <br>
+              <button style="margin-top: 3%; margin-bottom: 3%;" type="click" class="btn btn-success">Convert</button>
+            </form>
+            <h2 id="display2" style="text-align: center;"></h2>
+          </div>
+        </div>
+
       </div>
       <div class="col-6">
         <div class="card">

@@ -1,19 +1,8 @@
-## Setup for template
-* _$ rm -r .git_
-* _$ git init_
-* _$ git remote add dg [GitHub Repository]_
-* _$ git add .gitignore_
-* _$ git commit -m "Add .gitignore to project."_
-* _$ git push dg main_
-* _$ npm init -y_
-* _$ npm install_
-* _$ npm run build_
+# _Currency Exchanger_
 
-# _{Application Name}_
+#### By: _**David Gamble**_
 
-#### By: _**{List of contributors}**_
-
-#### _{Brief description of application}_
+#### _A website to exchange currencies._
 
 ## Technologies Used
 
