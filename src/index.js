@@ -5,22 +5,18 @@ import CurrencyConverter from './js/currency-api.js';
 
 async function convert(dollars, code) {
   const response = await CurrencyConverter.convert(dollars, code);
-  // console.log(response);
   if (response.result === 'success') {
     printElements(response, dollars, code);
   } else {
-    printError(response, dollars, code);
+    printError(response);
   }
 }
 
 const printElements = (response, dollars, code) => {
-  console.log(`printElements: ${dollars} ${code}`)
-  console.log(response);
+  document.getElementById('display').innerHTML = `$${parseInt(dollars).toFixed(2)} = ${response.conversion_result.toFixed(2)} ${code}`;
 };
 
-const printError = (response, dollars, code) => {
-  console.log(`printError: ${dollars} ${code}`)
-  console.log(response);
+const printError = (response) => {
   document.getElementById('display').innerHTML = response;
 };
 
