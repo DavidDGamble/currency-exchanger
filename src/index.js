@@ -13,7 +13,7 @@ async function convert(dollars, code) {
 }
 
 const printElements = (response, dollars, code) => {
-  document.getElementById('display').innerHTML = `$${parseInt(dollars).toFixed(2)} = ${response.conversion_result.toFixed(2)} ${code}`;
+  document.getElementById('display').innerHTML = `$${parseFloat(dollars).toFixed(2)} = ${response.conversion_result.toFixed(2)} ${code}`;
 };
 
 const printError = (response) => {
@@ -22,8 +22,11 @@ const printError = (response) => {
 
 const handleSubmit = (event) => {
   event.preventDefault();
-  const userDollars = document.getElementById('dollars').value;
+  let userDollars = document.getElementById('dollars').value;
   const userCode = document.getElementById('code').value.toUpperCase();
+  if (userDollars === '') {
+    userDollars = '0';
+  }
   convert(userDollars, userCode);
 };
 
