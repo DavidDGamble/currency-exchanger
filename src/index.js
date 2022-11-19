@@ -26,7 +26,7 @@ const printUSElements = (response, dollars, code) => {
 };
 
 const printAllElements = (response, dollars, curr, code) => {
-  document.getElementById('display2').innerHTML = `${parseFloat(dollars).toFixed(2)} ${curr} = ${response.conversion_result.toFixed(2)} ${code}`
+  document.getElementById('display2').innerHTML = `${parseFloat(dollars).toFixed(2)} ${curr} = ${response.conversion_result.toFixed(2)} ${code}`;
 };
 
 const printUSError = (response) => {
@@ -56,7 +56,7 @@ const handleSubmit2 = (event) => {
     userDollars = '0';
   }
   convertAll(userDollars, userCurrency, userCode);
-}
+};
 
 addEventListener('load', function() {
   document.getElementById('form1').addEventListener('submit', handleSubmit);

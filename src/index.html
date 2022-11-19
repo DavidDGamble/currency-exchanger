@@ -12,7 +12,6 @@
     </div>
     <div class="row">
       <div class="col-6">
-
         <div class="card">
           <div class="card-header" style="text-align: center;">
             <strong>Convert US dollor to currency of your choice.</strong>
@@ -31,7 +30,6 @@
             <h2 id="display" style="text-align: center;"></h2>
           </div>
         </div>
-
         <div class="card" style="margin-top: 5%">
           <div class="card-header" style="text-align: center;">
             <strong>Convert any currency to currency of your choice.</strong>
@@ -44,7 +42,8 @@
               <label for="curr">Enter the three letter currency code for the currency you would like use: </label>
               <input type="text" id="curr" name="curr">
               <br>
-              <label for="code2">Enter the three letter currency code for the currency you would like to convert to: </label>
+              <label for="code2">Enter the three letter currency code for the currency you would like to convert to:
+              </label>
               <input type="text" id="code2" name="code2">
               <br>
               <button style="margin-top: 3%; margin-bottom: 3%;" type="click" class="btn btn-success">Convert</button>
@@ -52,181 +51,835 @@
             <h2 id="display2" style="text-align: center;"></h2>
           </div>
         </div>
-
       </div>
       <div class="col-6">
         <div class="card">
           <div class="card-header">
             <table>
-              <tr><td align="left" width="160px"><h6 class="mb-1">Currency Code</h6></td><td align="left" width="250px"><h6 class="mb-1">Currency Name</h6></td><td align="left"><h6 class="mb-1">Country</h6></td></tr>
+              <tr>
+                <td align="left" width="160px">
+                  <h6 class="mb-1">Currency Code</h6>
+                </td>
+                <td align="left" width="250px">
+                  <h6 class="mb-1">Currency Name</h6>
+                </td>
+                <td align="left">
+                  <h6 class="mb-1">Country</h6>
+                </td>
+              </tr>
             </table>
           </div>
           <div class="card-body">
             <blockquote class="blockquote mb-0">
               <table>
                 <tbody>
-                <tr><td align="left">AED</td><td align="center">UAE Dirham</td><td align="right">United Arab Emirates</td></tr>
-                <tr><td align="left">AFN</td><td align="center">Afghan Afghani</td><td align="right">Afghanistan</td></tr>
-                <tr><td align="left">ALL</td><td align="center">Albanian Lek</td><td align="right">Albania</td></tr>
-                <tr><td align="left">AMD</td><td align="center">Armenian Dram</td><td align="right">Armenia</td></tr>
-                <tr><td align="left">ANG</td><td align="center">Netherlands Antillian Guilder</td><td align="right">Netherlands Antilles</td></tr>
-                <tr><td align="left">AOA</td><td align="center">Angolan Kwanza</td><td align="right">Angola</td></tr>
-                <tr><td align="left">ARS</td><td align="center">Argentine Peso</td><td align="right">Argentina</td></tr>
-                <tr><td align="left">AUD</td><td align="center">Australian Dollar</td><td align="right">Australia</td></tr>
-                <tr><td align="left">AWG</td><td align="center">Aruban Florin</td><td align="right">Aruba</td></tr>
-                <tr><td align="left">AZN</td><td align="center">Azerbaijani Manat</td><td align="right">Azerbaijan</td></tr>
-                <tr><td align="left">BAM</td><td align="center">Bosnia and Herzegovina Mark</td><td align="right">Bosnia and Herzegovina</td></tr>
-                <tr><td align="left">BBD</td><td align="center">Barbados Dollar</td><td align="right">Barbados</td></tr>
-                <tr><td align="left">BDT</td><td align="center">Bangladeshi Taka</td><td align="right">Bangladesh</td></tr>
-                <tr><td align="left">BGN</td><td align="center">Bulgarian Lev</td><td align="right">Bulgaria</td></tr>
-                <tr><td align="left">BHD</td><td align="center">Bahraini Dinar</td><td align="right">Bahrain</td></tr>
-                <tr><td align="left">BIF</td><td align="center">Burundian Franc</td><td align="right">Burundi</td></tr>
-                <tr><td align="left">BMD</td><td align="center">Bermudian Dollar</td><td align="right">Bermuda</td></tr>
-                <tr><td align="left">BND</td><td align="center">Brunei Dollar</td><td align="right">Brunei</td></tr>
-                <tr><td align="left">BOB</td><td align="center">Bolivian Boliviano</td><td align="right">Bolivia</td></tr>
-                <tr><td align="left">BRL</td><td align="center">Brazilian Real</td><td align="right">Brazil</td></tr>
-                <tr><td align="left">BSD</td><td align="center">Bahamian Dollar</td><td align="right">Bahamas</td></tr>
-                <tr><td align="left">BTN</td><td align="center">Bhutanese Ngultrum</td><td align="right">Bhutan</td></tr>
-                <tr><td align="left">BWP</td><td align="center">Botswana Pula</td><td align="right">Botswana</td></tr>
-                <tr><td align="left">BYN</td><td align="center">Belarusian Ruble</td><td align="right">Belarus</td></tr>
-                <tr><td align="left">BZD</td><td align="center">Belize Dollar</td><td align="right">Belize</td></tr>
-                <tr><td align="left">CAD</td><td align="center">Canadian Dollar</td><td align="right">Canada</td></tr>
-                <tr><td align="left">CDF</td><td align="center">Congolese Franc</td><td align="right">Democratic Republic of the Congo</td></tr>
-                <tr><td align="left">CHF</td><td align="center">Swiss Franc</td><td align="right">Switzerland</td></tr>
-                <tr><td align="left">CLP</td><td align="center">Chilean Peso</td><td align="right">Chile</td></tr>
-                <tr><td align="left">CNY</td><td align="center">Chinese Renminbi</td><td align="right">China</td></tr>
-                <tr><td align="left">COP</td><td align="center">Colombian Peso</td><td align="right">Colombia</td></tr>
-                <tr><td align="left">CRC</td><td align="center">Costa Rican Colon</td><td align="right">Costa Rica</td></tr>
-                <tr><td align="left">CUP</td><td align="center">Cuban Peso</td><td align="right">Cuba</td></tr>
-                <tr><td align="left">CVE</td><td align="center">Cape Verdean Escudo</td><td align="right">Cape Verde</td></tr>
-                <tr><td align="left">CZK</td><td align="center">Czech Koruna</td><td align="right">Czech Republic</td></tr>
-                <tr><td align="left">DJF</td><td align="center">Djiboutian Franc</td><td align="right">Djibouti</td></tr>
-                <tr><td align="left">DKK</td><td align="center">Danish Krone</td><td align="right">Denmark</td></tr>
-                <tr><td align="left">DOP</td><td align="center">Dominican Peso</td><td align="right">Dominican Republic</td></tr>
-                <tr><td align="left">DZD</td><td align="center">Algerian Dinar</td><td align="right">Algeria</td></tr>
-                <tr><td align="left">EGP</td><td align="center">Egyptian Pound</td><td align="right">Egypt</td></tr>
-                <tr><td align="left">ERN</td><td align="center">Eritrean Nakfa</td><td align="right">Eritrea</td></tr>
-                <tr><td align="left">ETB</td><td align="center">Ethiopian Birr</td><td align="right">Ethiopia</td></tr>
-                <tr><td align="left">EUR</td><td align="center">Euro</td><td align="right">European Union</td></tr>
-                <tr><td align="left">FJD</td><td align="center">Fiji Dollar</td><td align="right">Fiji</td></tr>
-                <tr><td align="left">FKP</td><td align="center">Falkland Islands Pound</td><td align="right">Falkland Islands</td></tr>
-                <tr><td align="left">FOK</td><td align="center">Faroese Króna</td><td align="right">Faroe Islands</td></tr>
-                <tr><td align="left">GBP</td><td align="center">Pound Sterling</td><td align="right">United Kingdom</td></tr>
-                <tr><td align="left">GEL</td><td align="center">Georgian Lari</td><td align="right">Georgia</td></tr>
-                <tr><td align="left">GGP</td><td align="center">Guernsey Pound</td><td align="right">Guernsey</td></tr>
-                <tr><td align="left">GHS</td><td align="center">Ghanaian Cedi</td><td align="right">Ghana</td></tr>
-                <tr><td align="left">GIP</td><td align="center">Gibraltar Pound</td><td align="right">Gibraltar</td></tr>
-                <tr><td align="left">GMD</td><td align="center">Gambian Dalasi</td><td align="right">The Gambia</td></tr>
-                <tr><td align="left">GNF</td><td align="center">Guinean Franc</td><td align="right">Guinea</td></tr>
-                <tr><td align="left">GTQ</td><td align="center">Guatemalan Quetzal</td><td align="right">Guatemala</td></tr>
-                <tr><td align="left">GYD</td><td align="center">Guyanese Dollar</td><td align="right">Guyana</td></tr>
-                <tr><td align="left">HKD</td><td align="center">Hong Kong Dollar</td><td align="right">Hong Kong</td></tr>
-                <tr><td align="left">HNL</td><td align="center">Honduran Lempira</td><td align="right">Honduras</td></tr>
-                <tr><td align="left">HRK</td><td align="center">Croatian Kuna</td><td align="right">Croatia</td></tr>
-                <tr><td align="left">HTG</td><td align="center">Haitian Gourde</td><td align="right">Haiti</td></tr>
-                <tr><td align="left">HUF</td><td align="center">Hungarian Forint</td><td align="right">Hungary</td></tr>
-                <tr><td align="left">IDR</td><td align="center">Indonesian Rupiah</td><td align="right">Indonesia</td></tr>
-                <tr><td align="left">ILS</td><td align="center">Israeli New Shekel</td><td align="right">Israel</td></tr>
-                <tr><td align="left">IMP</td><td align="center">Manx Pound</td><td align="right">Isle of Man</td></tr>
-                <tr><td align="left">INR</td><td align="center">Indian Rupee</td><td align="right">India</td></tr>
-                <tr><td align="left">IQD</td><td align="center">Iraqi Dinar</td><td align="right">Iraq</td></tr>
-                <tr><td align="left">IRR</td><td align="center">Iranian Rial</td><td align="right">Iran</td></tr>
-                <tr><td align="left">ISK</td><td align="center">Icelandic Króna</td><td align="right">Iceland</td></tr>
-                <tr><td align="left">JEP</td><td align="center">Jersey Pound</td><td align="right">Jersey</td></tr>
-                <tr><td align="left">JMD</td><td align="center">Jamaican Dollar</td><td align="right">Jamaica</td></tr>
-                <tr><td align="left">JOD</td><td align="center">Jordanian Dinar</td><td align="right">Jordan</td></tr>
-                <tr><td align="left">JPY</td><td align="center">Japanese Yen</td><td align="right">Japan</td></tr>
-                <tr><td align="left">KES</td><td align="center">Kenyan Shilling</td><td align="right">Kenya</td></tr>
-                <tr><td align="left">KGS</td><td align="center">Kyrgyzstani Som</td><td align="right">Kyrgyzstan</td></tr>
-                <tr><td align="left">KHR</td><td align="center">Cambodian Riel</td><td align="right">Cambodia</td></tr>
-                <tr><td align="left">KID</td><td align="center">Kiribati Dollar</td><td align="right">Kiribati</td></tr>
-                <tr><td align="left">KMF</td><td align="center">Comorian Franc</td><td align="right">Comoros</td></tr>
-                <tr><td align="left">KRW</td><td align="center">South Korean Won</td><td align="right">South Korea</td></tr>
-                <tr><td align="left">KWD</td><td align="center">Kuwaiti Dinar</td><td align="right">Kuwait</td></tr>
-                <tr><td align="left">KYD</td><td align="center">Cayman Islands Dollar</td><td align="right">Cayman Islands</td></tr>
-                <tr><td align="left">KZT</td><td align="center">Kazakhstani Tenge</td><td align="right">Kazakhstan</td></tr>
-                <tr><td align="left">LAK</td><td align="center">Lao Kip</td><td align="right">Laos</td></tr>
-                <tr><td align="left">LBP</td><td align="center">Lebanese Pound</td><td align="right">Lebanon</td></tr>
-                <tr><td align="left">LKR</td><td align="center">Sri Lanka Rupee</td><td align="right">Sri Lanka</td></tr>
-                <tr><td align="left">LRD</td><td align="center">Liberian Dollar</td><td align="right">Liberia</td></tr>
-                <tr><td align="left">LSL</td><td align="center">Lesotho Loti</td><td align="right">Lesotho</td></tr>
-                <tr><td align="left">LYD</td><td align="center">Libyan Dinar</td><td align="right">Libya</td></tr>
-                <tr><td align="left">MAD</td><td align="center">Moroccan Dirham</td><td align="right">Morocco</td></tr>
-                <tr><td align="left">MDL</td><td align="center">Moldovan Leu</td><td align="right">Moldova</td></tr>
-                <tr><td align="left">MGA</td><td align="center">Malagasy Ariary</td><td align="right">Madagascar</td></tr>
-                <tr><td align="left">MKD</td><td align="center">Macedonian Denar</td><td align="right">North Macedonia</td></tr>
-                <tr><td align="left">MMK</td><td align="center">Burmese Kyat</td><td align="right">Myanmar</td></tr>
-                <tr><td align="left">MNT</td><td align="center">Mongolian Tögrög</td><td align="right">Mongolia</td></tr>
-                <tr><td align="left">MOP</td><td align="center">Macanese Pataca</td><td align="right">Macau</td></tr>
-                <tr><td align="left">MRU</td><td align="center">Mauritanian Ouguiya</td><td align="right">Mauritania</td></tr>
-                <tr><td align="left">MUR</td><td align="center">Mauritian Rupee</td><td align="right">Mauritius</td></tr>
-                <tr><td align="left">MVR</td><td align="center">Maldivian Rufiyaa</td><td align="right">Maldives</td></tr>
-                <tr><td align="left">MWK</td><td align="center">Malawian Kwacha</td><td align="right">Malawi</td></tr>
-                <tr><td align="left">MXN</td><td align="center">Mexican Peso</td><td align="right">Mexico</td></tr>
-                <tr><td align="left">MYR</td><td align="center">Malaysian Ringgit</td><td align="right">Malaysia</td></tr>
-                <tr><td align="left">MZN</td><td align="center">Mozambican Metical</td><td align="right">Mozambique</td></tr>
-                <tr><td align="left">NAD</td><td align="center">Namibian Dollar</td><td align="right">Namibia</td></tr>
-                <tr><td align="left">NGN</td><td align="center">Nigerian Naira</td><td align="right">Nigeria</td></tr>
-                <tr><td align="left">NIO</td><td align="center">Nicaraguan Córdoba</td><td align="right">Nicaragua</td></tr>
-                <tr><td align="left">NOK</td><td align="center">Norwegian Krone</td><td align="right">Norway</td></tr>
-                <tr><td align="left">NPR</td><td align="center">Nepalese Rupee</td><td align="right">Nepal</td></tr>
-                <tr><td align="left">NZD</td><td align="center">New Zealand Dollar</td><td align="right">New Zealand</td></tr>
-                <tr><td align="left">OMR</td><td align="center">Omani Rial</td><td align="right">Oman</td></tr>
-                <tr><td align="left">PAB</td><td align="center">Panamanian Balboa</td><td align="right">Panama</td></tr>
-                <tr><td align="left">PEN</td><td align="center">Peruvian Sol</td><td align="right">Peru</td></tr>
-                <tr><td align="left">PGK</td><td align="center">Papua New Guinean Kina</td><td align="right">Papua New Guinea</td></tr>
-                <tr><td align="left">PHP</td><td align="center">Philippine Peso</td><td align="right">Philippines</td></tr>
-                <tr><td align="left">PKR</td><td align="center">Pakistani Rupee</td><td align="right">Pakistan</td></tr>
-                <tr><td align="left">PLN</td><td align="center">Polish Złoty</td><td align="right">Poland</td></tr>
-                <tr><td align="left">PYG</td><td align="center">Paraguayan Guaraní</td><td align="right">Paraguay</td></tr>
-                <tr><td align="left">QAR</td><td align="center">Qatari Riyal</td><td align="right">Qatar</td></tr>
-                <tr><td align="left">RON</td><td align="center">Romanian Leu</td><td align="right">Romania</td></tr>
-                <tr><td align="left">RSD</td><td align="center">Serbian Dinar</td><td align="right">Serbia</td></tr>
-                <tr><td align="left">RUB</td><td align="center">Russian Ruble</td><td align="right">Russia</td></tr>
-                <tr><td align="left">RWF</td><td align="center">Rwandan Franc</td><td align="right">Rwanda</td></tr>
-                <tr><td align="left">SAR</td><td align="center">Saudi Riyal</td><td align="right">Saudi Arabia</td></tr>
-                <tr><td align="left">SBD</td><td align="center">Solomon Islands Dollar</td><td align="right">Solomon Islands</td></tr>
-                <tr><td align="left">SCR</td><td align="center">Seychellois Rupee</td><td align="right">Seychelles</td></tr>
-                <tr><td align="left">SDG</td><td align="center">Sudanese Pound</td><td align="right">Sudan</td></tr>
-                <tr><td align="left">SEK</td><td align="center">Swedish Krona</td><td align="right">Sweden</td></tr>
-                <tr><td align="left">SGD</td><td align="center">Singapore Dollar</td><td align="right">Singapore</td></tr>
-                <tr><td align="left">SHP</td><td align="center">Saint Helena Pound</td><td align="right">Saint Helena</td></tr>
-                <tr><td align="left">SLE</td><td align="center">Sierra Leonean Leone</td><td align="right">Sierra Leone</td></tr>
-                <tr><td align="left">SOS</td><td align="center">Somali Shilling</td><td align="right">Somalia</td></tr>
-                <tr><td align="left">SRD</td><td align="center">Surinamese Dollar</td><td align="right">Suriname</td></tr>
-                <tr><td align="left">SSP</td><td align="center">South Sudanese Pound</td><td align="right">South Sudan</td></tr>
-                <tr><td align="left">STN</td><td align="center">São Tomé and Príncipe Dobra</td><td align="right">São Tomé and Príncipe</td></tr>
-                <tr><td align="left">SYP</td><td align="center">Syrian Pound</td><td align="right">Syria</td></tr>
-                <tr><td align="left">SZL</td><td align="center">Eswatini Lilangeni</td><td align="right">Eswatini</td></tr>
-                <tr><td align="left">THB</td><td align="center">Thai Baht</td><td align="right">Thailand</td></tr>
-                <tr><td align="left">TJS</td><td align="center">Tajikistani Somoni</td><td align="right">Tajikistan</td></tr>
-                <tr><td align="left">TMT</td><td align="center">Turkmenistan Manat</td><td align="right">Turkmenistan</td></tr>
-                <tr><td align="left">TND</td><td align="center">Tunisian Dinar</td><td align="right">Tunisia</td></tr>
-                <tr><td align="left">TOP</td><td align="center">Tongan Paʻanga</td><td align="right">Tonga</td></tr>
-                <tr><td align="left">TRY</td><td align="center">Turkish Lira</td><td align="right">Turkey</td></tr>
-                <tr><td align="left">TTD</td><td align="center">Trinidad and Tobago Dollar</td><td align="right">Trinidad and Tobago</td></tr>
-                <tr><td align="left">TVD</td><td align="center">Tuvaluan Dollar</td><td align="right">Tuvalu</td></tr>
-                <tr><td align="left">TWD</td><td align="center">New Taiwan Dollar</td><td align="right">Taiwan</td></tr>
-                <tr><td align="left">TZS</td><td align="center">Tanzanian Shilling</td><td align="right">Tanzania</td></tr>
-                <tr><td align="left">UAH</td><td align="center">Ukrainian Hryvnia</td><td align="right">Ukraine</td></tr>
-                <tr><td align="left">UGX</td><td align="center">Ugandan Shilling</td><td align="right">Uganda</td></tr>
-                <tr><td align="left">USD</td><td align="center">United States Dollar</td><td align="right">United States</td></tr>
-                <tr><td align="left">UYU</td><td align="center">Uruguayan Peso</td><td align="right">Uruguay</td></tr>
-                <tr><td align="left">UZS</td><td align="center">Uzbekistani So'm</td><td align="right">Uzbekistan</td></tr>
-                <tr><td align="left">VES</td><td align="center">Venezuelan Bolívar Soberano</td><td align="right">Venezuela</td></tr>
-                <tr><td align="left">VND</td><td align="center">Vietnamese Đồng</td><td align="right">Vietnam</td></tr>
-                <tr><td align="left">VUV</td><td align="center">Vanuatu Vatu</td><td align="right">Vanuatu</td></tr>
-                <tr><td align="left">WST</td><td align="center">Samoan Tālā</td><td align="right">Samoa</td></tr>
-                <tr><td align="left">XAF</td><td align="center">Central African CFA Franc</td><td align="right">CEMAC</td></tr>
-                <tr><td align="left">XCD</td><td align="center">East Caribbean Dollar</td><td align="right">Organisation of Eastern Caribbean States</td></tr>
-                <tr><td align="left">XDR</td><td align="center">Special Drawing Rights</td><td align="right">International Monetary Fund</td></tr>
-                <tr><td align="left">XOF</td><td align="center">West African CFA franc</td><td align="right">CFA</td></tr>
-                <tr><td align="left">XPF</td><td align="center">CFP Franc</td><td align="right">Collectivités d'Outre-Mer</td></tr>
-                <tr><td align="left">YER</td><td align="center">Yemeni Rial</td><td align="right">Yemen</td></tr>
-                <tr><td align="left">ZAR</td><td align="center">South African Rand</td><td align="right">South Africa</td></tr>
-                <tr><td align="left">ZMW</td><td align="center">Zambian Kwacha</td><td align="right">Zambia</td></tr>
-                <tr><td align="left">ZWL</td><td align="center">Zimbabwean Dollar</td><td align="right">Zimbabwe</td></tr>
-                </tbody></table>
+                  <tr>
+                    <td align="left">AED</td>
+                    <td align="center">UAE Dirham</td>
+                    <td align="right">United Arab Emirates</td>
+                  </tr>
+                  <tr>
+                    <td align="left">AFN</td>
+                    <td align="center">Afghan Afghani</td>
+                    <td align="right">Afghanistan</td>
+                  </tr>
+                  <tr>
+                    <td align="left">ALL</td>
+                    <td align="center">Albanian Lek</td>
+                    <td align="right">Albania</td>
+                  </tr>
+                  <tr>
+                    <td align="left">AMD</td>
+                    <td align="center">Armenian Dram</td>
+                    <td align="right">Armenia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">ANG</td>
+                    <td align="center">Netherlands Antillian Guilder</td>
+                    <td align="right">Netherlands Antilles</td>
+                  </tr>
+                  <tr>
+                    <td align="left">AOA</td>
+                    <td align="center">Angolan Kwanza</td>
+                    <td align="right">Angola</td>
+                  </tr>
+                  <tr>
+                    <td align="left">ARS</td>
+                    <td align="center">Argentine Peso</td>
+                    <td align="right">Argentina</td>
+                  </tr>
+                  <tr>
+                    <td align="left">AUD</td>
+                    <td align="center">Australian Dollar</td>
+                    <td align="right">Australia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">AWG</td>
+                    <td align="center">Aruban Florin</td>
+                    <td align="right">Aruba</td>
+                  </tr>
+                  <tr>
+                    <td align="left">AZN</td>
+                    <td align="center">Azerbaijani Manat</td>
+                    <td align="right">Azerbaijan</td>
+                  </tr>
+                  <tr>
+                    <td align="left">BAM</td>
+                    <td align="center">Bosnia and Herzegovina Mark</td>
+                    <td align="right">Bosnia and Herzegovina</td>
+                  </tr>
+                  <tr>
+                    <td align="left">BBD</td>
+                    <td align="center">Barbados Dollar</td>
+                    <td align="right">Barbados</td>
+                  </tr>
+                  <tr>
+                    <td align="left">BDT</td>
+                    <td align="center">Bangladeshi Taka</td>
+                    <td align="right">Bangladesh</td>
+                  </tr>
+                  <tr>
+                    <td align="left">BGN</td>
+                    <td align="center">Bulgarian Lev</td>
+                    <td align="right">Bulgaria</td>
+                  </tr>
+                  <tr>
+                    <td align="left">BHD</td>
+                    <td align="center">Bahraini Dinar</td>
+                    <td align="right">Bahrain</td>
+                  </tr>
+                  <tr>
+                    <td align="left">BIF</td>
+                    <td align="center">Burundian Franc</td>
+                    <td align="right">Burundi</td>
+                  </tr>
+                  <tr>
+                    <td align="left">BMD</td>
+                    <td align="center">Bermudian Dollar</td>
+                    <td align="right">Bermuda</td>
+                  </tr>
+                  <tr>
+                    <td align="left">BND</td>
+                    <td align="center">Brunei Dollar</td>
+                    <td align="right">Brunei</td>
+                  </tr>
+                  <tr>
+                    <td align="left">BOB</td>
+                    <td align="center">Bolivian Boliviano</td>
+                    <td align="right">Bolivia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">BRL</td>
+                    <td align="center">Brazilian Real</td>
+                    <td align="right">Brazil</td>
+                  </tr>
+                  <tr>
+                    <td align="left">BSD</td>
+                    <td align="center">Bahamian Dollar</td>
+                    <td align="right">Bahamas</td>
+                  </tr>
+                  <tr>
+                    <td align="left">BTN</td>
+                    <td align="center">Bhutanese Ngultrum</td>
+                    <td align="right">Bhutan</td>
+                  </tr>
+                  <tr>
+                    <td align="left">BWP</td>
+                    <td align="center">Botswana Pula</td>
+                    <td align="right">Botswana</td>
+                  </tr>
+                  <tr>
+                    <td align="left">BYN</td>
+                    <td align="center">Belarusian Ruble</td>
+                    <td align="right">Belarus</td>
+                  </tr>
+                  <tr>
+                    <td align="left">BZD</td>
+                    <td align="center">Belize Dollar</td>
+                    <td align="right">Belize</td>
+                  </tr>
+                  <tr>
+                    <td align="left">CAD</td>
+                    <td align="center">Canadian Dollar</td>
+                    <td align="right">Canada</td>
+                  </tr>
+                  <tr>
+                    <td align="left">CDF</td>
+                    <td align="center">Congolese Franc</td>
+                    <td align="right">Democratic Republic of the Congo</td>
+                  </tr>
+                  <tr>
+                    <td align="left">CHF</td>
+                    <td align="center">Swiss Franc</td>
+                    <td align="right">Switzerland</td>
+                  </tr>
+                  <tr>
+                    <td align="left">CLP</td>
+                    <td align="center">Chilean Peso</td>
+                    <td align="right">Chile</td>
+                  </tr>
+                  <tr>
+                    <td align="left">CNY</td>
+                    <td align="center">Chinese Renminbi</td>
+                    <td align="right">China</td>
+                  </tr>
+                  <tr>
+                    <td align="left">COP</td>
+                    <td align="center">Colombian Peso</td>
+                    <td align="right">Colombia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">CRC</td>
+                    <td align="center">Costa Rican Colon</td>
+                    <td align="right">Costa Rica</td>
+                  </tr>
+                  <tr>
+                    <td align="left">CUP</td>
+                    <td align="center">Cuban Peso</td>
+                    <td align="right">Cuba</td>
+                  </tr>
+                  <tr>
+                    <td align="left">CVE</td>
+                    <td align="center">Cape Verdean Escudo</td>
+                    <td align="right">Cape Verde</td>
+                  </tr>
+                  <tr>
+                    <td align="left">CZK</td>
+                    <td align="center">Czech Koruna</td>
+                    <td align="right">Czech Republic</td>
+                  </tr>
+                  <tr>
+                    <td align="left">DJF</td>
+                    <td align="center">Djiboutian Franc</td>
+                    <td align="right">Djibouti</td>
+                  </tr>
+                  <tr>
+                    <td align="left">DKK</td>
+                    <td align="center">Danish Krone</td>
+                    <td align="right">Denmark</td>
+                  </tr>
+                  <tr>
+                    <td align="left">DOP</td>
+                    <td align="center">Dominican Peso</td>
+                    <td align="right">Dominican Republic</td>
+                  </tr>
+                  <tr>
+                    <td align="left">DZD</td>
+                    <td align="center">Algerian Dinar</td>
+                    <td align="right">Algeria</td>
+                  </tr>
+                  <tr>
+                    <td align="left">EGP</td>
+                    <td align="center">Egyptian Pound</td>
+                    <td align="right">Egypt</td>
+                  </tr>
+                  <tr>
+                    <td align="left">ERN</td>
+                    <td align="center">Eritrean Nakfa</td>
+                    <td align="right">Eritrea</td>
+                  </tr>
+                  <tr>
+                    <td align="left">ETB</td>
+                    <td align="center">Ethiopian Birr</td>
+                    <td align="right">Ethiopia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">EUR</td>
+                    <td align="center">Euro</td>
+                    <td align="right">European Union</td>
+                  </tr>
+                  <tr>
+                    <td align="left">FJD</td>
+                    <td align="center">Fiji Dollar</td>
+                    <td align="right">Fiji</td>
+                  </tr>
+                  <tr>
+                    <td align="left">FKP</td>
+                    <td align="center">Falkland Islands Pound</td>
+                    <td align="right">Falkland Islands</td>
+                  </tr>
+                  <tr>
+                    <td align="left">FOK</td>
+                    <td align="center">Faroese Króna</td>
+                    <td align="right">Faroe Islands</td>
+                  </tr>
+                  <tr>
+                    <td align="left">GBP</td>
+                    <td align="center">Pound Sterling</td>
+                    <td align="right">United Kingdom</td>
+                  </tr>
+                  <tr>
+                    <td align="left">GEL</td>
+                    <td align="center">Georgian Lari</td>
+                    <td align="right">Georgia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">GGP</td>
+                    <td align="center">Guernsey Pound</td>
+                    <td align="right">Guernsey</td>
+                  </tr>
+                  <tr>
+                    <td align="left">GHS</td>
+                    <td align="center">Ghanaian Cedi</td>
+                    <td align="right">Ghana</td>
+                  </tr>
+                  <tr>
+                    <td align="left">GIP</td>
+                    <td align="center">Gibraltar Pound</td>
+                    <td align="right">Gibraltar</td>
+                  </tr>
+                  <tr>
+                    <td align="left">GMD</td>
+                    <td align="center">Gambian Dalasi</td>
+                    <td align="right">The Gambia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">GNF</td>
+                    <td align="center">Guinean Franc</td>
+                    <td align="right">Guinea</td>
+                  </tr>
+                  <tr>
+                    <td align="left">GTQ</td>
+                    <td align="center">Guatemalan Quetzal</td>
+                    <td align="right">Guatemala</td>
+                  </tr>
+                  <tr>
+                    <td align="left">GYD</td>
+                    <td align="center">Guyanese Dollar</td>
+                    <td align="right">Guyana</td>
+                  </tr>
+                  <tr>
+                    <td align="left">HKD</td>
+                    <td align="center">Hong Kong Dollar</td>
+                    <td align="right">Hong Kong</td>
+                  </tr>
+                  <tr>
+                    <td align="left">HNL</td>
+                    <td align="center">Honduran Lempira</td>
+                    <td align="right">Honduras</td>
+                  </tr>
+                  <tr>
+                    <td align="left">HRK</td>
+                    <td align="center">Croatian Kuna</td>
+                    <td align="right">Croatia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">HTG</td>
+                    <td align="center">Haitian Gourde</td>
+                    <td align="right">Haiti</td>
+                  </tr>
+                  <tr>
+                    <td align="left">HUF</td>
+                    <td align="center">Hungarian Forint</td>
+                    <td align="right">Hungary</td>
+                  </tr>
+                  <tr>
+                    <td align="left">IDR</td>
+                    <td align="center">Indonesian Rupiah</td>
+                    <td align="right">Indonesia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">ILS</td>
+                    <td align="center">Israeli New Shekel</td>
+                    <td align="right">Israel</td>
+                  </tr>
+                  <tr>
+                    <td align="left">IMP</td>
+                    <td align="center">Manx Pound</td>
+                    <td align="right">Isle of Man</td>
+                  </tr>
+                  <tr>
+                    <td align="left">INR</td>
+                    <td align="center">Indian Rupee</td>
+                    <td align="right">India</td>
+                  </tr>
+                  <tr>
+                    <td align="left">IQD</td>
+                    <td align="center">Iraqi Dinar</td>
+                    <td align="right">Iraq</td>
+                  </tr>
+                  <tr>
+                    <td align="left">IRR</td>
+                    <td align="center">Iranian Rial</td>
+                    <td align="right">Iran</td>
+                  </tr>
+                  <tr>
+                    <td align="left">ISK</td>
+                    <td align="center">Icelandic Króna</td>
+                    <td align="right">Iceland</td>
+                  </tr>
+                  <tr>
+                    <td align="left">JEP</td>
+                    <td align="center">Jersey Pound</td>
+                    <td align="right">Jersey</td>
+                  </tr>
+                  <tr>
+                    <td align="left">JMD</td>
+                    <td align="center">Jamaican Dollar</td>
+                    <td align="right">Jamaica</td>
+                  </tr>
+                  <tr>
+                    <td align="left">JOD</td>
+                    <td align="center">Jordanian Dinar</td>
+                    <td align="right">Jordan</td>
+                  </tr>
+                  <tr>
+                    <td align="left">JPY</td>
+                    <td align="center">Japanese Yen</td>
+                    <td align="right">Japan</td>
+                  </tr>
+                  <tr>
+                    <td align="left">KES</td>
+                    <td align="center">Kenyan Shilling</td>
+                    <td align="right">Kenya</td>
+                  </tr>
+                  <tr>
+                    <td align="left">KGS</td>
+                    <td align="center">Kyrgyzstani Som</td>
+                    <td align="right">Kyrgyzstan</td>
+                  </tr>
+                  <tr>
+                    <td align="left">KHR</td>
+                    <td align="center">Cambodian Riel</td>
+                    <td align="right">Cambodia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">KID</td>
+                    <td align="center">Kiribati Dollar</td>
+                    <td align="right">Kiribati</td>
+                  </tr>
+                  <tr>
+                    <td align="left">KMF</td>
+                    <td align="center">Comorian Franc</td>
+                    <td align="right">Comoros</td>
+                  </tr>
+                  <tr>
+                    <td align="left">KRW</td>
+                    <td align="center">South Korean Won</td>
+                    <td align="right">South Korea</td>
+                  </tr>
+                  <tr>
+                    <td align="left">KWD</td>
+                    <td align="center">Kuwaiti Dinar</td>
+                    <td align="right">Kuwait</td>
+                  </tr>
+                  <tr>
+                    <td align="left">KYD</td>
+                    <td align="center">Cayman Islands Dollar</td>
+                    <td align="right">Cayman Islands</td>
+                  </tr>
+                  <tr>
+                    <td align="left">KZT</td>
+                    <td align="center">Kazakhstani Tenge</td>
+                    <td align="right">Kazakhstan</td>
+                  </tr>
+                  <tr>
+                    <td align="left">LAK</td>
+                    <td align="center">Lao Kip</td>
+                    <td align="right">Laos</td>
+                  </tr>
+                  <tr>
+                    <td align="left">LBP</td>
+                    <td align="center">Lebanese Pound</td>
+                    <td align="right">Lebanon</td>
+                  </tr>
+                  <tr>
+                    <td align="left">LKR</td>
+                    <td align="center">Sri Lanka Rupee</td>
+                    <td align="right">Sri Lanka</td>
+                  </tr>
+                  <tr>
+                    <td align="left">LRD</td>
+                    <td align="center">Liberian Dollar</td>
+                    <td align="right">Liberia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">LSL</td>
+                    <td align="center">Lesotho Loti</td>
+                    <td align="right">Lesotho</td>
+                  </tr>
+                  <tr>
+                    <td align="left">LYD</td>
+                    <td align="center">Libyan Dinar</td>
+                    <td align="right">Libya</td>
+                  </tr>
+                  <tr>
+                    <td align="left">MAD</td>
+                    <td align="center">Moroccan Dirham</td>
+                    <td align="right">Morocco</td>
+                  </tr>
+                  <tr>
+                    <td align="left">MDL</td>
+                    <td align="center">Moldovan Leu</td>
+                    <td align="right">Moldova</td>
+                  </tr>
+                  <tr>
+                    <td align="left">MGA</td>
+                    <td align="center">Malagasy Ariary</td>
+                    <td align="right">Madagascar</td>
+                  </tr>
+                  <tr>
+                    <td align="left">MKD</td>
+                    <td align="center">Macedonian Denar</td>
+                    <td align="right">North Macedonia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">MMK</td>
+                    <td align="center">Burmese Kyat</td>
+                    <td align="right">Myanmar</td>
+                  </tr>
+                  <tr>
+                    <td align="left">MNT</td>
+                    <td align="center">Mongolian Tögrög</td>
+                    <td align="right">Mongolia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">MOP</td>
+                    <td align="center">Macanese Pataca</td>
+                    <td align="right">Macau</td>
+                  </tr>
+                  <tr>
+                    <td align="left">MRU</td>
+                    <td align="center">Mauritanian Ouguiya</td>
+                    <td align="right">Mauritania</td>
+                  </tr>
+                  <tr>
+                    <td align="left">MUR</td>
+                    <td align="center">Mauritian Rupee</td>
+                    <td align="right">Mauritius</td>
+                  </tr>
+                  <tr>
+                    <td align="left">MVR</td>
+                    <td align="center">Maldivian Rufiyaa</td>
+                    <td align="right">Maldives</td>
+                  </tr>
+                  <tr>
+                    <td align="left">MWK</td>
+                    <td align="center">Malawian Kwacha</td>
+                    <td align="right">Malawi</td>
+                  </tr>
+                  <tr>
+                    <td align="left">MXN</td>
+                    <td align="center">Mexican Peso</td>
+                    <td align="right">Mexico</td>
+                  </tr>
+                  <tr>
+                    <td align="left">MYR</td>
+                    <td align="center">Malaysian Ringgit</td>
+                    <td align="right">Malaysia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">MZN</td>
+                    <td align="center">Mozambican Metical</td>
+                    <td align="right">Mozambique</td>
+                  </tr>
+                  <tr>
+                    <td align="left">NAD</td>
+                    <td align="center">Namibian Dollar</td>
+                    <td align="right">Namibia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">NGN</td>
+                    <td align="center">Nigerian Naira</td>
+                    <td align="right">Nigeria</td>
+                  </tr>
+                  <tr>
+                    <td align="left">NIO</td>
+                    <td align="center">Nicaraguan Córdoba</td>
+                    <td align="right">Nicaragua</td>
+                  </tr>
+                  <tr>
+                    <td align="left">NOK</td>
+                    <td align="center">Norwegian Krone</td>
+                    <td align="right">Norway</td>
+                  </tr>
+                  <tr>
+                    <td align="left">NPR</td>
+                    <td align="center">Nepalese Rupee</td>
+                    <td align="right">Nepal</td>
+                  </tr>
+                  <tr>
+                    <td align="left">NZD</td>
+                    <td align="center">New Zealand Dollar</td>
+                    <td align="right">New Zealand</td>
+                  </tr>
+                  <tr>
+                    <td align="left">OMR</td>
+                    <td align="center">Omani Rial</td>
+                    <td align="right">Oman</td>
+                  </tr>
+                  <tr>
+                    <td align="left">PAB</td>
+                    <td align="center">Panamanian Balboa</td>
+                    <td align="right">Panama</td>
+                  </tr>
+                  <tr>
+                    <td align="left">PEN</td>
+                    <td align="center">Peruvian Sol</td>
+                    <td align="right">Peru</td>
+                  </tr>
+                  <tr>
+                    <td align="left">PGK</td>
+                    <td align="center">Papua New Guinean Kina</td>
+                    <td align="right">Papua New Guinea</td>
+                  </tr>
+                  <tr>
+                    <td align="left">PHP</td>
+                    <td align="center">Philippine Peso</td>
+                    <td align="right">Philippines</td>
+                  </tr>
+                  <tr>
+                    <td align="left">PKR</td>
+                    <td align="center">Pakistani Rupee</td>
+                    <td align="right">Pakistan</td>
+                  </tr>
+                  <tr>
+                    <td align="left">PLN</td>
+                    <td align="center">Polish Złoty</td>
+                    <td align="right">Poland</td>
+                  </tr>
+                  <tr>
+                    <td align="left">PYG</td>
+                    <td align="center">Paraguayan Guaraní</td>
+                    <td align="right">Paraguay</td>
+                  </tr>
+                  <tr>
+                    <td align="left">QAR</td>
+                    <td align="center">Qatari Riyal</td>
+                    <td align="right">Qatar</td>
+                  </tr>
+                  <tr>
+                    <td align="left">RON</td>
+                    <td align="center">Romanian Leu</td>
+                    <td align="right">Romania</td>
+                  </tr>
+                  <tr>
+                    <td align="left">RSD</td>
+                    <td align="center">Serbian Dinar</td>
+                    <td align="right">Serbia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">RUB</td>
+                    <td align="center">Russian Ruble</td>
+                    <td align="right">Russia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">RWF</td>
+                    <td align="center">Rwandan Franc</td>
+                    <td align="right">Rwanda</td>
+                  </tr>
+                  <tr>
+                    <td align="left">SAR</td>
+                    <td align="center">Saudi Riyal</td>
+                    <td align="right">Saudi Arabia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">SBD</td>
+                    <td align="center">Solomon Islands Dollar</td>
+                    <td align="right">Solomon Islands</td>
+                  </tr>
+                  <tr>
+                    <td align="left">SCR</td>
+                    <td align="center">Seychellois Rupee</td>
+                    <td align="right">Seychelles</td>
+                  </tr>
+                  <tr>
+                    <td align="left">SDG</td>
+                    <td align="center">Sudanese Pound</td>
+                    <td align="right">Sudan</td>
+                  </tr>
+                  <tr>
+                    <td align="left">SEK</td>
+                    <td align="center">Swedish Krona</td>
+                    <td align="right">Sweden</td>
+                  </tr>
+                  <tr>
+                    <td align="left">SGD</td>
+                    <td align="center">Singapore Dollar</td>
+                    <td align="right">Singapore</td>
+                  </tr>
+                  <tr>
+                    <td align="left">SHP</td>
+                    <td align="center">Saint Helena Pound</td>
+                    <td align="right">Saint Helena</td>
+                  </tr>
+                  <tr>
+                    <td align="left">SLE</td>
+                    <td align="center">Sierra Leonean Leone</td>
+                    <td align="right">Sierra Leone</td>
+                  </tr>
+                  <tr>
+                    <td align="left">SOS</td>
+                    <td align="center">Somali Shilling</td>
+                    <td align="right">Somalia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">SRD</td>
+                    <td align="center">Surinamese Dollar</td>
+                    <td align="right">Suriname</td>
+                  </tr>
+                  <tr>
+                    <td align="left">SSP</td>
+                    <td align="center">South Sudanese Pound</td>
+                    <td align="right">South Sudan</td>
+                  </tr>
+                  <tr>
+                    <td align="left">STN</td>
+                    <td align="center">São Tomé and Príncipe Dobra</td>
+                    <td align="right">São Tomé and Príncipe</td>
+                  </tr>
+                  <tr>
+                    <td align="left">SYP</td>
+                    <td align="center">Syrian Pound</td>
+                    <td align="right">Syria</td>
+                  </tr>
+                  <tr>
+                    <td align="left">SZL</td>
+                    <td align="center">Eswatini Lilangeni</td>
+                    <td align="right">Eswatini</td>
+                  </tr>
+                  <tr>
+                    <td align="left">THB</td>
+                    <td align="center">Thai Baht</td>
+                    <td align="right">Thailand</td>
+                  </tr>
+                  <tr>
+                    <td align="left">TJS</td>
+                    <td align="center">Tajikistani Somoni</td>
+                    <td align="right">Tajikistan</td>
+                  </tr>
+                  <tr>
+                    <td align="left">TMT</td>
+                    <td align="center">Turkmenistan Manat</td>
+                    <td align="right">Turkmenistan</td>
+                  </tr>
+                  <tr>
+                    <td align="left">TND</td>
+                    <td align="center">Tunisian Dinar</td>
+                    <td align="right">Tunisia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">TOP</td>
+                    <td align="center">Tongan Paʻanga</td>
+                    <td align="right">Tonga</td>
+                  </tr>
+                  <tr>
+                    <td align="left">TRY</td>
+                    <td align="center">Turkish Lira</td>
+                    <td align="right">Turkey</td>
+                  </tr>
+                  <tr>
+                    <td align="left">TTD</td>
+                    <td align="center">Trinidad and Tobago Dollar</td>
+                    <td align="right">Trinidad and Tobago</td>
+                  </tr>
+                  <tr>
+                    <td align="left">TVD</td>
+                    <td align="center">Tuvaluan Dollar</td>
+                    <td align="right">Tuvalu</td>
+                  </tr>
+                  <tr>
+                    <td align="left">TWD</td>
+                    <td align="center">New Taiwan Dollar</td>
+                    <td align="right">Taiwan</td>
+                  </tr>
+                  <tr>
+                    <td align="left">TZS</td>
+                    <td align="center">Tanzanian Shilling</td>
+                    <td align="right">Tanzania</td>
+                  </tr>
+                  <tr>
+                    <td align="left">UAH</td>
+                    <td align="center">Ukrainian Hryvnia</td>
+                    <td align="right">Ukraine</td>
+                  </tr>
+                  <tr>
+                    <td align="left">UGX</td>
+                    <td align="center">Ugandan Shilling</td>
+                    <td align="right">Uganda</td>
+                  </tr>
+                  <tr>
+                    <td align="left">USD</td>
+                    <td align="center">United States Dollar</td>
+                    <td align="right">United States</td>
+                  </tr>
+                  <tr>
+                    <td align="left">UYU</td>
+                    <td align="center">Uruguayan Peso</td>
+                    <td align="right">Uruguay</td>
+                  </tr>
+                  <tr>
+                    <td align="left">UZS</td>
+                    <td align="center">Uzbekistani So'm</td>
+                    <td align="right">Uzbekistan</td>
+                  </tr>
+                  <tr>
+                    <td align="left">VES</td>
+                    <td align="center">Venezuelan Bolívar Soberano</td>
+                    <td align="right">Venezuela</td>
+                  </tr>
+                  <tr>
+                    <td align="left">VND</td>
+                    <td align="center">Vietnamese Đồng</td>
+                    <td align="right">Vietnam</td>
+                  </tr>
+                  <tr>
+                    <td align="left">VUV</td>
+                    <td align="center">Vanuatu Vatu</td>
+                    <td align="right">Vanuatu</td>
+                  </tr>
+                  <tr>
+                    <td align="left">WST</td>
+                    <td align="center">Samoan Tālā</td>
+                    <td align="right">Samoa</td>
+                  </tr>
+                  <tr>
+                    <td align="left">XAF</td>
+                    <td align="center">Central African CFA Franc</td>
+                    <td align="right">CEMAC</td>
+                  </tr>
+                  <tr>
+                    <td align="left">XCD</td>
+                    <td align="center">East Caribbean Dollar</td>
+                    <td align="right">Organisation of Eastern Caribbean States</td>
+                  </tr>
+                  <tr>
+                    <td align="left">XDR</td>
+                    <td align="center">Special Drawing Rights</td>
+                    <td align="right">International Monetary Fund</td>
+                  </tr>
+                  <tr>
+                    <td align="left">XOF</td>
+                    <td align="center">West African CFA franc</td>
+                    <td align="right">CFA</td>
+                  </tr>
+                  <tr>
+                    <td align="left">XPF</td>
+                    <td align="center">CFP Franc</td>
+                    <td align="right">Collectivités d'Outre-Mer</td>
+                  </tr>
+                  <tr>
+                    <td align="left">YER</td>
+                    <td align="center">Yemeni Rial</td>
+                    <td align="right">Yemen</td>
+                  </tr>
+                  <tr>
+                    <td align="left">ZAR</td>
+                    <td align="center">South African Rand</td>
+                    <td align="right">South Africa</td>
+                  </tr>
+                  <tr>
+                    <td align="left">ZMW</td>
+                    <td align="center">Zambian Kwacha</td>
+                    <td align="right">Zambia</td>
+                  </tr>
+                  <tr>
+                    <td align="left">ZWL</td>
+                    <td align="center">Zimbabwean Dollar</td>
+                    <td align="right">Zimbabwe</td>
+                  </tr>
+                </tbody>
+              </table>
             </blockquote>
           </div>
         </div>
