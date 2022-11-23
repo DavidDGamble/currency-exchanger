@@ -31,6 +31,13 @@ _This is a website that allows the user to convert currencies in two ways.  The 
 * _enter command in terminal: $ npm run build_
 * _enter command in terminal: $ npm run start_
 
+### API Key Setup Instrurctions
+
+* _Visit https://www.exchangerate-api.com/.  Input your email address and click the "Get Free Key" button._
+* _After creating an account you'll be able to access a dashboard that includes your API key._
+* _Create a .env file in the root folder of the project repository._
+* _At the top of the file save your key as API_KEY=[enter your API key]. Do not include []._
+
 ## Known Bugs
 
 * _No known bugs._
