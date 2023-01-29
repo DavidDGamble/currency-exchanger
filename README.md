@@ -26,17 +26,30 @@ _This is a website that allows the user to convert currencies in two ways.  The 
 
 ## Setup/Installation Requirements
 
-* _clone the repository to your desktop from: https://github.com/DavidDGamble/currency-exchanger.git_
-* _enter command in terminal: $ npm install_
-* _enter command in terminal: $ npm run build_
-* _enter command in terminal: $ npm run start_
+* _clone the repository to your desktop from:_ 
+```
+https://github.com/DavidDGamble/currency-exchanger.git
+```
+* _run the following commands in the terminal in the root repository currency-exchanger_
+```
+npm i
+```
+```
+npm run build
+```
+```
+npm run start
+```
 
 ### API Key Setup Instrurctions
 
 * _Visit https://www.exchangerate-api.com/.  Input your email address and click the "Get Free Key" button._
 * _After creating an account you'll be able to access a dashboard that includes your API key._
 * _Create a .env file in the root folder of the project repository._
-* _At the top of the file save your key as API_KEY=[enter your API key]. Do not include []._
+* _At the top of the file save your key as:_
+```
+API_KEY = "[YOUR API KEY]"
+```
 
 ## Known Bugs
 
